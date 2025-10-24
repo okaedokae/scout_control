@@ -5,9 +5,20 @@
 
 #header {
     background-color: #222222;
+    float: left;
+    width: 100%;
 }
 
 #title {
     font-family: "Roboto", sans-serif;
     color: #EC0080;
+    float: left;
+}
+
+li {
+    display: inline-block;
+}
+
+#header_logo {
+    height: 50px;
 }

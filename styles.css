@@ -17,11 +17,56 @@ head {
     width: 100%;
 }
 
+@media screen and (min-width: 1125px) {
+  #title {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width:1125px) and (min-width:1000px) {
+  #title {
+    font-size: 2.5vw;
+  }
+
+}
+
+@media screen and (max-width:1000px) and (min-width:875px) {
+  #title {
+    font-size: 3vw;
+  }
+
+}
+
+@media screen and (max-width:875px) and (min-width:750px) {
+  #title {
+    font-size: 3.5vw;
+  }
+
+}
+
+@media screen and (max-width:750px) and (min-width:625px) {
+  #title {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width:625px) and (min-width:500px) {
+  #title {
+    font-size: 4.5vw;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  #title {
+    font-size: 5vw;
+  }
+}
+
 #title {
     font-family: "Roboto", sans-serif;
     color: #EC0080;
     float: left;
-    font-size: 30px;
     padding-bottom: 10px;
 }
 
@@ -30,8 +75,8 @@ li {
 }
 
 #header_logo {
-    height: 40px;
     padding: 10px;
+    height: 40px;
 }
 
 /* The dropdown container */
